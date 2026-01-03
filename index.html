@@ -4,19 +4,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>portfolio</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<header> <h1><b>BHOOMI CHHABLANI</b> 
-</h1> </header> <hr>
+<header>
+     <h1><b>BHOOMI CHHABLANI</b> 
+</h1>
+ </header> <hr>
 <section>
-<P> Hello! I am Bhoomi Chhablani, currently pursuing a B.Tech degree in Information Technology from NIT Raipur. I am focused on building a strong academic foundation while exploring web development and programming.Along with this, I have a keen interest in problem-solving and enjoy working on projects that challenge my creativity and technical skills.This portfolio highlights my education, skills and growth as a learner.</P>
-<img src="profile.jpeg" alt="profile Picture" width="180" height="270"> 
+<P class="container"> Hello! I am Bhoomi Chhablani, currently pursuing a B.Tech degree in Information Technology from NIT Raipur. I am focused on building a strong academic foundation while exploring web development and programming.Along with this, I have a keen interest in problem-solving and enjoy working on projects that challenge my creativity and technical skills.This portfolio highlights my education, skills and growth as a learner.</P>
+<img src="profile.jpeg" alt="profile Picture" width="180" height="270" class="profile-img"> 
 </section>
 <br>
-<center><a href="about.html"> Know More about me </a></center>
+<nav class="container">
+<center><a href="about.html" class="btn"> Know More about me </a></center>
+</nav>
 <section>
     <h3> MY SKILLS </h3> 
-<ul type="square">
+<ul type="square" class="ul">
     <li>Programming Languages:<i> C, Python</i></li>
     <li>Web Development:<i> HTML, CSS</i></li>
     <li>Version Control:<i> Git, GitHub</i></li>
@@ -27,8 +32,9 @@
     <article>
         <h4><i>Project 1: Portfolio Website</i></h4>
         <p>This portfolio website is a multi-page project created using core HTML to present my
-        education, skills, and projects in a structured manner.</p>
-        <a href="#">View Project </a>    
+        education, skills, and projects in a structured manner.</p> <br>
+        <a href="#" class="btn"> View Project </a>  
+
     </article><br> <br>
     <section><p> This is the video that I used to learn HTML.</p>
     <iframe width="560" height="315" src="https://www.youtube.com/embed/HcOc7P5BMi4?si=NpAiH7tRl0etHbyd" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></section>
@@ -37,6 +43,6 @@
         <blockquote>"The best way to learn is to keep trying." <br>
             <cite> -Sudha Murthy</cite> </blockquote>
     </section>
-
+    <button class="btn">Contact Me</button>
 </body>
 </html>
