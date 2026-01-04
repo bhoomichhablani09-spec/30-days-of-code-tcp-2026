@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>College event</title>
+</head>
+<body>
+<h1 align="center">College Hackathon Schedule and Registration</h1>
+<hr>
+<p align="center">Join us for an exciting college hackathon event! Below are the details:</p>
+<section>
+<table border="2" cellpadding="10" cellspacing="0" align="center">
+    <thead> 
+    <tr bgcolor="tan">
+        <th>TIME</th>
+        <th>LOCATION</th>
+        <th>EVENT</th>
+    </tr>
+    <tr bgcolor="beige">
+       <th colspan="3">DAY 1 (17th January)</th>
+        </tr> 
+    </thead>
+    <tbody>
+    <tr  bgcolor="tan">
+        <td>8:00 AM</td>
+        <td>Computer Lab Building</td>
+        <td>Team Registration and Breakfast</td>
+    </tr>
+    <tr bgcolor="beige">
+        <td>10:00 AM</td>
+        <td>Auditorium</td>
+        <td>Opening Ceremony</td>
+    </tr>
+    <tr bgcolor="tan">
+        <td>11:00 PM</td>
+        <td>Computer Lab Building</td>
+        <td>Hackathon Kick-off</td>
+    </tr>
+    <tr bgcolor="beige">
+        <td>4:00 PM</td>
+        <td>Computer Lab Building</td>
+        <td>Suggestion Round</td>
+    </tr>
+    <tr bgcolor="tan"> 
+        <td>8:00 PM</td>
+        <td>Canteen</td>
+        <td>Dinner Break</td>
+    </tr>
+    <tr bgcolor="beige">
+        <th colspan="3">DAY 2 (18th January)</th>
+    </tr>
+    <tr bgcolor="tan">
+        <td>8:00 AM</td>
+        <td>Canteen</td>
+        <td>Breakfast</td>
+    </tr>
+    <tr bgcolor="beige">
+        <td>11:00 AM</td>
+        <td>Computer Lab Building</td>
+        <td>Project Submission and Judgement Round Begins</td>
+    </tr>
+    <tr bgcolor="tan">
+        <td>2:00 PM</td>
+        <td>Auditorium</td>
+        <td>Award Ceremony and Closing Remarks</td>
+        </tr>
+    </tbody>        
+</table><hr>
+</section>  
+<section>
+    <h2>Registration Form</h2>
+    <form action="/action.php">
+        <label for="name">Name:</label><br>
+        <input type="text" placeholder="Enter name here" id="name" name="name">
+        <br><br>
+        <label for="email">Email:</label><br>
+        <input type="email" placeholder="Enter email here" id="email" name="email">
+        <br><br>
+        <label for="phone">Phone Number:</label><br>
+        <input type="tel" placeholder="Enter phone number here" id="phone" name="phone">
+        <br><br>
+        <label for="roll no.">Roll Number:</label><br>
+        <input type="number" placeholder="Enter roll number here" id="rollno" name="rollno">
+        <br><br>
+        <label for="date of birth">Date of Birth:</label><br>
+        <input type="date" id="dob" name="dob">
+        <br><br>
+        <p>Ticket Type</p>
+        <input type="radio" id="standard" name="ticket type" value="standard">
+        <label for="standard">STANDARD</label><br>
+        <input type="radio" id="vip" name="ticket type" value="VIP">
+        <label for="vip">VIP</label><br> 
+        <input type="radio" id="student" name="ticket type" value="STUDENT">
+        <label for="student">STUDENT</label><br>
+        <p>Workshop Preferrences</p>
+        <input type="checkbox" id="python" name="skill_python" value="Python">
+        <label for="python"> Python</label><br>
+        <input type="checkbox" id="java" name="skill_java" value="Java">
+        <label for="java"> Java</label><br>
+        <input type="checkbox" id="C++" name="skill_C++" value="C++">
+        <label for="C++"> C++</label><br>
+        <input type="checkbox" id="html" name="skill_html" value="HTML">
+        <label for="html"> HTML</label>
+        <br><br>
+        <label for="comment">Additional Comments:</label><br>
+        <textarea name="comment" rows="7" cols="50" id="comment" placeholder="Comment Here"></textarea>
+        <br><br>
+        <input type="submit" value="Submit">
+    </form>
+</section>
+</body>
+</html>
